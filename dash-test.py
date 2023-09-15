@@ -144,6 +144,7 @@ nav_contents = [
 ]
 
 app = Dash(external_stylesheets=[dbc.themes.FLATLY])
+server = app.server
 
 app.layout = dbc.Container(
     html.Div([
