@@ -1,12 +1,9 @@
 import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
 import plotly.express as px
 import plotly.graph_objects as go
 from dash import Dash, html, dash_table,dcc
 import dash_bootstrap_components as dbc
 from functions import *
-from datetime import datetime, timedelta
 from dash import Input, Output, html
 
 today = "2023-09-15"
